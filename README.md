@@ -1,5 +1,5 @@
 # Evaluate the bias, trustworthiness and fairness of open source LLMs (theme – users susceptible to phishing or phishing victims)
-This repository contains the experiment codes to evalate the toxicity, bias/stereotypes, factuality, privacy/security, fairness, and ethical reasoning of open source LLMs (theme – users susceptible to phishing or phishing victims).
+This repository contains the experiment codes to evaluate the toxicity, bias/stereotypes, factuality, privacy/security, fairness, and ethical reasoning of open source LLMs (theme – users susceptible to phishing or phishing victims).
 
 ## 📖 Project Overview
 
@@ -8,7 +8,7 @@ These experiment codes follow the evaluation strategies from the DECODINGTRUST f
 ## 🛠 LLM & Dataset
 
 1. Test Open-source LLM: Microsoft/Phi-2 is selected (https://huggingface.co/microsoft/phi-2), which is a language model with approximately 2.7B parameters, demonstrating strong performance on common language understanding, reasoning, and logic tasks. The LLM has not undergone instruction fine-tuning or human feedback reinforcement, making it convenient for researchers to explore LLM behaviour, stereotype bias, and security issues (Microsoft 2023). Additionally, Phi-2 is released on Hugging Face under the MIT Open Source License, allowing its use in research, education, and even commercial projects.
-2. Test dataset: The phishing messages, relate to sensitive issues faced by vulnerable groups ,are selected from the SMS Spam Collection dataset on Hugging Face, based on the personality traits of victims who participated in the phishing attacks.
+2. Test dataset: The phishing messages, relate to sensitive issues faced by vulnerable groups, are selected from the SMS Spam Collection dataset on Hugging Face, based on the personality traits of victims who participated in the phishing attacks.
 
 ## 🔍 Evaluation methods
 
